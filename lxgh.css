@@ -1,0 +1,58 @@
+.dh{
+    width:100%;
+    height:80px;
+    background:url("../导航.jpg") no-repeat center top;
+}
+
+
+.wrap{
+    width:1180px;
+    margin: 0 auto;
+
+}
+
+.dh li{
+    float:left;
+    width: 200px;
+    height: 80px;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+}
+.dh a{
+    color:#fff;
+    font-size: 14px;
+}
+.nav-active{
+    background: url("../导航2.jpg") no-repeat center top;
+}
+.nav-active>a{
+    color: #000;
+}
+.dh li:hover{
+    background: url("../导航2.jpg") no-repeat center top;
+}
+.dh li:hover>a{
+    color: #000;
+}
+.nav-list{
+    display: none;
+    position: absolute;  
+    top: 80px;
+    width: 200px;
+    height: 500px;
+
+}
+.dh li:hover>.nav-list{
+    display: block;
+}
+.xz{ 
+    width: 200px;
+    height: 60px;
+    background-color: antiquewhite;
+}
+.banner{
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+}
